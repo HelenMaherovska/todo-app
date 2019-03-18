@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoItemRow renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TodoItemRow
+    completed={false}
+    date="06/18/2018 05:49:28"
+    id="12345"
+    onClick={[MockFunction]}
+    onDelete={[MockFunction]}
+    onUpdate={[MockFunction]}
+    text="Learn unit testing"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <td
+          className="todo-text "
+          onClick={[Function]}
+        >
+          Learn unit testing
+        </td>,
+        <td
+          className="todo-text "
+          onClick={[Function]}
+        >
+          06/18/2018 05:49:28
+        </td>,
+        <td>
+          <button
+            className="btn btn-info mr-2"
+            onClick={[Function]}
+            type="button"
+          >
+            Edit
+          </button>
+          <button
+            className="btn btn-danger"
+            onClick={[Function]}
+            type="button"
+          >
+            Delete
+          </button>
+        </td>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Learn unit testing",
+          "className": "todo-text ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Learn unit testing",
+        "type": "td",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "06/18/2018 05:49:28",
+          "className": "todo-text ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "06/18/2018 05:49:28",
+        "type": "td",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="btn btn-info mr-2"
+              onClick={[Function]}
+              type="button"
+            >
+              Edit
+            </button>,
+            <button
+              className="btn btn-danger"
+              onClick={[Function]}
+              type="button"
+            >
+              Delete
+            </button>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Edit",
+              "className": "btn btn-info mr-2",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": "Edit",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Delete",
+              "className": "btn btn-danger",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": "Delete",
+            "type": "button",
+          },
+        ],
+        "type": "td",
+      },
+    ],
+    "type": "tr",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <td
+            className="todo-text "
+            onClick={[Function]}
+          >
+            Learn unit testing
+          </td>,
+          <td
+            className="todo-text "
+            onClick={[Function]}
+          >
+            06/18/2018 05:49:28
+          </td>,
+          <td>
+            <button
+              className="btn btn-info mr-2"
+              onClick={[Function]}
+              type="button"
+            >
+              Edit
+            </button>
+            <button
+              className="btn btn-danger"
+              onClick={[Function]}
+              type="button"
+            >
+              Delete
+            </button>
+          </td>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Learn unit testing",
+            "className": "todo-text ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Learn unit testing",
+          "type": "td",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "06/18/2018 05:49:28",
+            "className": "todo-text ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "06/18/2018 05:49:28",
+          "type": "td",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="btn btn-info mr-2"
+                onClick={[Function]}
+                type="button"
+              >
+                Edit
+              </button>,
+              <button
+                className="btn btn-danger"
+                onClick={[Function]}
+                type="button"
+              >
+                Delete
+              </button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Edit",
+                "className": "btn btn-info mr-2",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": "Edit",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Delete",
+                "className": "btn btn-danger",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": "Delete",
+              "type": "button",
+            },
+          ],
+          "type": "td",
+        },
+      ],
+      "type": "tr",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

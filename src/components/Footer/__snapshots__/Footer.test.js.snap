@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <VisibleTodoList />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "ALL",
+    "nodeType": "class",
+    "props": Object {
+      "children": "ALL",
+      "filter": "ALL",
+    },
+    "ref": null,
+    "rendered": "ALL",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "ALL",
+      "nodeType": "class",
+      "props": Object {
+        "children": "ALL",
+        "filter": "ALL",
+      },
+      "ref": null,
+      "rendered": "ALL",
+      "type": [Function],
+    },
+    Object {
+      "instance": null,
+      "key": "COMPLETE",
+      "nodeType": "class",
+      "props": Object {
+        "children": "COMPLETE",
+        "filter": "COMPLETE",
+      },
+      "ref": null,
+      "rendered": "COMPLETE",
+      "type": [Function],
+    },
+    Object {
+      "instance": null,
+      "key": "ACTIVE",
+      "nodeType": "class",
+      "props": Object {
+        "children": "ACTIVE",
+        "filter": "ACTIVE",
+      },
+      "ref": null,
+      "rendered": "ACTIVE",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

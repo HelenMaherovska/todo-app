@@ -1,0 +1,8 @@
+.add-todo-wrapper {
+  margin: 40px 0;
+}
+
+.add-todo-wrapper .form-control:not(:last-child) {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
