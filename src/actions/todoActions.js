@@ -1,10 +1,10 @@
 import moment from "moment";
-import { v4 } from "node-uuid";
+import uuid from 'uuid';
 import * as actionTypes from "./types";
 
 export const addTodo = text => ({
   type: actionTypes.ADD_TODO,
-  id: v4(),
+  id: uuid.v4(),
   complete: false,
   date: moment().format("MM/DD/YYYY HH:mm:ss"),
   text
