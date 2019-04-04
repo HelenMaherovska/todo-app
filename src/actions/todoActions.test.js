@@ -2,7 +2,7 @@ import moment from "moment";
 import * as actionTypes from "./types";
 import * as actions from "./todoActions";
 
-jest.mock("node-uuid", () => ({ v4: jest.fn(() => 0) }));
+jest.mock("uuid", () => ({ v4: jest.fn(() => 0) }));
 
 describe("actions", () => {
   it("should create an action to add a todo", () => {

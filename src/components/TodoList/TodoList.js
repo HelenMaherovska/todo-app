@@ -1,12 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import TodoListItemRow from "../TodoItemRow/TodoItemRow";
+import TodoItemRow from "../TodoItemRow/TodoItemRow";
 import { toggleTodo, deleteTodo, updateTodo } from "../../actions/todoActions";
 import { getVisibleTodos } from "../../selectors/todoSelector";
 
 export const TodoList = props => {
   const { todos, toggleTodo, deleteTodo, updateTodo } = props;
+
+  if (!todos.length) {
+    return <span className="empty-message">No todos in list</span>;
+  }
+
   return (
     <table className="table">
       <thead>
@@ -17,16 +22,15 @@ export const TodoList = props => {
         </tr>
       </thead>
       <tbody>
-        {todos.length > 0 &&
-          todos.map(todo => (
-            <TodoListItemRow
-              key={todo.id}
-              {...todo}
-              onClick={toggleTodo}
-              onDelete={deleteTodo}
-              onUpdate={updateTodo}
-            />
-          ))}
+        {todos.map(todo => (
+          <TodoItemRow
+            key={todo.id}
+            {...todo}
+            onClick={toggleTodo}
+            onDelete={deleteTodo}
+            onUpdate={updateTodo}
+          />
+        ))}
       </tbody>
     </table>
   );
@@ -44,6 +48,10 @@ TodoList.propTypes = {
   toggleTodo: PropTypes.func.isRequired,
   deleteTodo: PropTypes.func.isRequired,
   updateTodo: PropTypes.func.isRequired
+};
+
+TodoList.defaultProps = {
+  todos: []
 };
 
 const mapStateToProps = state => ({

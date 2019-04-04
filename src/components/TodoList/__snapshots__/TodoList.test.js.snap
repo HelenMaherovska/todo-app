@@ -9,18 +9,15 @@ ShallowWrapper {
       Array [
         Object {
           "completed": false,
+          "date": "06/18/2018 05:49:28",
           "id": "0",
           "text": "todo item 1",
         },
         Object {
           "completed": true,
+          "date": "02/10/2018 12:14:19",
           "id": "1",
           "text": "todo item 2",
-        },
-        Object {
-          "completed": true,
-          "id": "2",
-          "text": "todo item 3",
         },
       ]
     }
@@ -56,6 +53,7 @@ ShallowWrapper {
         <tbody>
           <TodoItemRow
             completed={false}
+            date="06/18/2018 05:49:28"
             id="0"
             onClick={[MockFunction]}
             onDelete={[MockFunction]}
@@ -64,19 +62,12 @@ ShallowWrapper {
           />
           <TodoItemRow
             completed={true}
+            date="02/10/2018 12:14:19"
             id="1"
             onClick={[MockFunction]}
             onDelete={[MockFunction]}
             onUpdate={[MockFunction]}
             text="todo item 2"
-          />
-          <TodoItemRow
-            completed={true}
-            id="2"
-            onClick={[MockFunction]}
-            onDelete={[MockFunction]}
-            onUpdate={[MockFunction]}
-            text="todo item 3"
           />
         </tbody>,
       ],
@@ -161,6 +152,7 @@ ShallowWrapper {
           "children": Array [
             <TodoItemRow
               completed={false}
+              date="06/18/2018 05:49:28"
               id="0"
               onClick={[MockFunction]}
               onDelete={[MockFunction]}
@@ -169,19 +161,12 @@ ShallowWrapper {
             />,
             <TodoItemRow
               completed={true}
+              date="02/10/2018 12:14:19"
               id="1"
               onClick={[MockFunction]}
               onDelete={[MockFunction]}
               onUpdate={[MockFunction]}
               text="todo item 2"
-            />,
-            <TodoItemRow
-              completed={true}
-              id="2"
-              onClick={[MockFunction]}
-              onDelete={[MockFunction]}
-              onUpdate={[MockFunction]}
-              text="todo item 3"
             />,
           ],
         },
@@ -193,6 +178,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "completed": false,
+              "date": "06/18/2018 05:49:28",
               "id": "0",
               "onClick": [MockFunction],
               "onDelete": [MockFunction],
@@ -209,27 +195,12 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "completed": true,
+              "date": "02/10/2018 12:14:19",
               "id": "1",
               "onClick": [MockFunction],
               "onDelete": [MockFunction],
               "onUpdate": [MockFunction],
               "text": "todo item 2",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "2",
-            "nodeType": "class",
-            "props": Object {
-              "completed": true,
-              "id": "2",
-              "onClick": [MockFunction],
-              "onDelete": [MockFunction],
-              "onUpdate": [MockFunction],
-              "text": "todo item 3",
             },
             "ref": null,
             "rendered": null,
@@ -262,6 +233,7 @@ ShallowWrapper {
           <tbody>
             <TodoItemRow
               completed={false}
+              date="06/18/2018 05:49:28"
               id="0"
               onClick={[MockFunction]}
               onDelete={[MockFunction]}
@@ -270,19 +242,12 @@ ShallowWrapper {
             />
             <TodoItemRow
               completed={true}
+              date="02/10/2018 12:14:19"
               id="1"
               onClick={[MockFunction]}
               onDelete={[MockFunction]}
               onUpdate={[MockFunction]}
               text="todo item 2"
-            />
-            <TodoItemRow
-              completed={true}
-              id="2"
-              onClick={[MockFunction]}
-              onDelete={[MockFunction]}
-              onUpdate={[MockFunction]}
-              text="todo item 3"
             />
           </tbody>,
         ],
@@ -367,6 +332,7 @@ ShallowWrapper {
             "children": Array [
               <TodoItemRow
                 completed={false}
+                date="06/18/2018 05:49:28"
                 id="0"
                 onClick={[MockFunction]}
                 onDelete={[MockFunction]}
@@ -375,19 +341,12 @@ ShallowWrapper {
               />,
               <TodoItemRow
                 completed={true}
+                date="02/10/2018 12:14:19"
                 id="1"
                 onClick={[MockFunction]}
                 onDelete={[MockFunction]}
                 onUpdate={[MockFunction]}
                 text="todo item 2"
-              />,
-              <TodoItemRow
-                completed={true}
-                id="2"
-                onClick={[MockFunction]}
-                onDelete={[MockFunction]}
-                onUpdate={[MockFunction]}
-                text="todo item 3"
               />,
             ],
           },
@@ -399,6 +358,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "completed": false,
+                "date": "06/18/2018 05:49:28",
                 "id": "0",
                 "onClick": [MockFunction],
                 "onDelete": [MockFunction],
@@ -415,27 +375,12 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "completed": true,
+                "date": "02/10/2018 12:14:19",
                 "id": "1",
                 "onClick": [MockFunction],
                 "onDelete": [MockFunction],
                 "onUpdate": [MockFunction],
                 "text": "todo item 2",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": "2",
-              "nodeType": "class",
-              "props": Object {
-                "completed": true,
-                "id": "2",
-                "onClick": [MockFunction],
-                "onDelete": [MockFunction],
-                "onUpdate": [MockFunction],
-                "text": "todo item 3",
               },
               "ref": null,
               "rendered": null,
